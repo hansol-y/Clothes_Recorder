@@ -20,7 +20,7 @@ struct ContentView: View {
         VStack{
             Image(systemName: "sun.max.circle")
                 .dynamicTypeSize(.xxxLarge)
-                .frame(width: nil, height: nil)
+                .frame(width: 15, height: 15)
                 .foregroundColor(.orange)
             Text("Clothes Recorder").font(.largeTitle)
         }

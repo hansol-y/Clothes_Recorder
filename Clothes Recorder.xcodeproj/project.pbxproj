@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07863C3729FC6D7C0048E51E /* Clothes_RecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C3629FC6D7C0048E51E /* Clothes_RecorderApp.swift */; };
+		07863C3929FC6D7C0048E51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C3829FC6D7C0048E51E /* ContentView.swift */; };
+		07863C3B29FC6D7E0048E51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07863C3A29FC6D7E0048E51E /* Assets.xcassets */; };
+		07863C3E29FC6D7E0048E51E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07863C3D29FC6D7E0048E51E /* Preview Assets.xcassets */; };
+		07863C4029FC6D7E0048E51E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C3F29FC6D7E0048E51E /* Persistence.swift */; };
+		07863C4329FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07863C4129FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld */; };
+		07863C4D29FC6D7E0048E51E /* Clothes_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C4C29FC6D7E0048E51E /* Clothes_RecorderTests.swift */; };
+		07863C5729FC6D7E0048E51E /* Clothes_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C5629FC6D7E0048E51E /* Clothes_RecorderUITests.swift */; };
+		07863C5929FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C5829FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07863C4929FC6D7E0048E51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07863C2B29FC6D7C0048E51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07863C3229FC6D7C0048E51E;
+			remoteInfo = "Clothes Recorder";
+		};
+		07863C5329FC6D7E0048E51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07863C2B29FC6D7C0048E51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07863C3229FC6D7C0048E51E;
+			remoteInfo = "Clothes Recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07863C3329FC6D7C0048E51E /* Clothes Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clothes Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07863C3629FC6D7C0048E51E /* Clothes_RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderApp.swift; sourceTree = "<group>"; };
+		07863C3829FC6D7C0048E51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07863C3A29FC6D7E0048E51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07863C3D29FC6D7E0048E51E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07863C3F29FC6D7E0048E51E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		07863C4229FC6D7E0048E51E /* Clothes_Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clothes_Recorder.xcdatamodel; sourceTree = "<group>"; };
+		07863C4829FC6D7E0048E51E /* Clothes RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clothes RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07863C4C29FC6D7E0048E51E /* Clothes_RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderTests.swift; sourceTree = "<group>"; };
+		07863C5229FC6D7E0048E51E /* Clothes RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clothes RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07863C5629FC6D7E0048E51E /* Clothes_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderUITests.swift; sourceTree = "<group>"; };
+		07863C5829FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07863C3029FC6D7C0048E51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C4529FC6D7E0048E51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C4F29FC6D7E0048E51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07863C2A29FC6D7C0048E51E = {
+			isa = PBXGroup;
+			children = (
+				07863C3529FC6D7C0048E51E /* Clothes Recorder */,
+				07863C4B29FC6D7E0048E51E /* Clothes RecorderTests */,
+				07863C5529FC6D7E0048E51E /* Clothes RecorderUITests */,
+				07863C3429FC6D7C0048E51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07863C3429FC6D7C0048E51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07863C3329FC6D7C0048E51E /* Clothes Recorder.app */,
+				07863C4829FC6D7E0048E51E /* Clothes RecorderTests.xctest */,
+				07863C5229FC6D7E0048E51E /* Clothes RecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07863C3529FC6D7C0048E51E /* Clothes Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				07863C3629FC6D7C0048E51E /* Clothes_RecorderApp.swift */,
+				07863C3829FC6D7C0048E51E /* ContentView.swift */,
+				07863C3A29FC6D7E0048E51E /* Assets.xcassets */,
+				07863C3F29FC6D7E0048E51E /* Persistence.swift */,
+				07863C4129FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld */,
+				07863C3C29FC6D7E0048E51E /* Preview Content */,
+			);
+			path = "Clothes Recorder";
+			sourceTree = "<group>";
+		};
+		07863C3C29FC6D7E0048E51E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07863C3D29FC6D7E0048E51E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07863C4B29FC6D7E0048E51E /* Clothes RecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				07863C4C29FC6D7E0048E51E /* Clothes_RecorderTests.swift */,
+			);
+			path = "Clothes RecorderTests";
+			sourceTree = "<group>";
+		};
+		07863C5529FC6D7E0048E51E /* Clothes RecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07863C5629FC6D7E0048E51E /* Clothes_RecorderUITests.swift */,
+				07863C5829FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift */,
+			);
+			path = "Clothes RecorderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07863C3229FC6D7C0048E51E /* Clothes Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07863C5C29FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes Recorder" */;
+			buildPhases = (
+				07863C2F29FC6D7C0048E51E /* Sources */,
+				07863C3029FC6D7C0048E51E /* Frameworks */,
+				07863C3129FC6D7C0048E51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clothes Recorder";
+			productName = "Clothes Recorder";
+			productReference = 07863C3329FC6D7C0048E51E /* Clothes Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07863C4729FC6D7E0048E51E /* Clothes RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07863C5F29FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes RecorderTests" */;
+			buildPhases = (
+				07863C4429FC6D7E0048E51E /* Sources */,
+				07863C4529FC6D7E0048E51E /* Frameworks */,
+				07863C4629FC6D7E0048E51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07863C4A29FC6D7E0048E51E /* PBXTargetDependency */,
+			);
+			name = "Clothes RecorderTests";
+			productName = "Clothes RecorderTests";
+			productReference = 07863C4829FC6D7E0048E51E /* Clothes RecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07863C5129FC6D7E0048E51E /* Clothes RecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07863C6229FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes RecorderUITests" */;
+			buildPhases = (
+				07863C4E29FC6D7E0048E51E /* Sources */,
+				07863C4F29FC6D7E0048E51E /* Frameworks */,
+				07863C5029FC6D7E0048E51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07863C5429FC6D7E0048E51E /* PBXTargetDependency */,
+			);
+			name = "Clothes RecorderUITests";
+			productName = "Clothes RecorderUITests";
+			productReference = 07863C5229FC6D7E0048E51E /* Clothes RecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07863C2B29FC6D7C0048E51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					07863C3229FC6D7C0048E51E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					07863C4729FC6D7E0048E51E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 07863C3229FC6D7C0048E51E;
+					};
+					07863C5129FC6D7E0048E51E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 07863C3229FC6D7C0048E51E;
+					};
+				};
+			};
+			buildConfigurationList = 07863C2E29FC6D7C0048E51E /* Build configuration list for PBXProject "Clothes Recorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07863C2A29FC6D7C0048E51E;
+			productRefGroup = 07863C3429FC6D7C0048E51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07863C3229FC6D7C0048E51E /* Clothes Recorder */,
+				07863C4729FC6D7E0048E51E /* Clothes RecorderTests */,
+				07863C5129FC6D7E0048E51E /* Clothes RecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07863C3129FC6D7C0048E51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07863C3E29FC6D7E0048E51E /* Preview Assets.xcassets in Resources */,
+				07863C3B29FC6D7E0048E51E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C4629FC6D7E0048E51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C5029FC6D7E0048E51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07863C2F29FC6D7C0048E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07863C4329FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld in Sources */,
+				07863C4029FC6D7E0048E51E /* Persistence.swift in Sources */,
+				07863C3929FC6D7C0048E51E /* ContentView.swift in Sources */,
+				07863C3729FC6D7C0048E51E /* Clothes_RecorderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C4429FC6D7E0048E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07863C4D29FC6D7E0048E51E /* Clothes_RecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07863C4E29FC6D7E0048E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07863C5729FC6D7E0048E51E /* Clothes_RecorderUITests.swift in Sources */,
+				07863C5929FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07863C4A29FC6D7E0048E51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07863C3229FC6D7C0048E51E /* Clothes Recorder */;
+			targetProxy = 07863C4929FC6D7E0048E51E /* PBXContainerItemProxy */;
+		};
+		07863C5429FC6D7E0048E51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07863C3229FC6D7C0048E51E /* Clothes Recorder */;
+			targetProxy = 07863C5329FC6D7E0048E51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07863C5A29FC6D7E0048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07863C5B29FC6D7E0048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07863C5D29FC6D7E0048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clothes Recorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07863C5E29FC6D7E0048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clothes Recorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07863C6029FC6D7E0048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clothes Recorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clothes Recorder";
+			};
+			name = Debug;
+		};
+		07863C6129FC6D7E0048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clothes Recorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clothes Recorder";
+			};
+			name = Release;
+		};
+		07863C6329FC6D7E0048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clothes Recorder";
+			};
+			name = Debug;
+		};
+		07863C6429FC6D7E0048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GTA3FA2J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hs.Clothes-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clothes Recorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07863C2E29FC6D7C0048E51E /* Build configuration list for PBXProject "Clothes Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07863C5A29FC6D7E0048E51E /* Debug */,
+				07863C5B29FC6D7E0048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07863C5C29FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07863C5D29FC6D7E0048E51E /* Debug */,
+				07863C5E29FC6D7E0048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07863C5F29FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07863C6029FC6D7E0048E51E /* Debug */,
+				07863C6129FC6D7E0048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07863C6229FC6D7E0048E51E /* Build configuration list for PBXNativeTarget "Clothes RecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07863C6329FC6D7E0048E51E /* Debug */,
+				07863C6429FC6D7E0048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07863C4129FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07863C4229FC6D7E0048E51E /* Clothes_Recorder.xcdatamodel */,
+			);
+			currentVersion = 07863C4229FC6D7E0048E51E /* Clothes_Recorder.xcdatamodel */;
+			path = Clothes_Recorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07863C2B29FC6D7C0048E51E /* Project object */;
+}

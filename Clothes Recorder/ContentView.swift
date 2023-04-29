@@ -17,12 +17,12 @@ struct ContentView: View {
 //    private var items: FetchedResults<Item>
 
     var body: some View {
-        VStack{
+        HStack{
             Image(systemName: "sun.max.circle")
                 .dynamicTypeSize(.xxxLarge)
-                .frame(width: 15, height: 15)
+                .frame(width: 25, height: 15)
                 .foregroundColor(.orange)
-            Text("Clothes Recorder").font(.largeTitle)
+            Text("Clothes Recorder").font(.largeTitle).foregroundColor(Color.black)
         }
 //        NavigationView {
 //            List {

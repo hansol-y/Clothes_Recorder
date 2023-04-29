@@ -16,6 +16,7 @@
 		07863C4D29FC6D7E0048E51E /* Clothes_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C4C29FC6D7E0048E51E /* Clothes_RecorderTests.swift */; };
 		07863C5729FC6D7E0048E51E /* Clothes_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C5629FC6D7E0048E51E /* Clothes_RecorderUITests.swift */; };
 		07863C5929FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C5829FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift */; };
+		07863C6629FCBB800048E51E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C6529FCBB800048E51E /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		07863C5229FC6D7E0048E51E /* Clothes RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clothes RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07863C5629FC6D7E0048E51E /* Clothes_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderUITests.swift; sourceTree = "<group>"; };
 		07863C5829FC6D7E0048E51E /* Clothes_RecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes_RecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07863C6529FCBB800048E51E /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				07863C3F29FC6D7E0048E51E /* Persistence.swift */,
 				07863C4129FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld */,
 				07863C3C29FC6D7E0048E51E /* Preview Content */,
+				07863C6529FCBB800048E51E /* Day.swift */,
 			);
 			path = "Clothes Recorder";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				07863C4329FC6D7E0048E51E /* Clothes_Recorder.xcdatamodeld in Sources */,
 				07863C4029FC6D7E0048E51E /* Persistence.swift in Sources */,
 				07863C3929FC6D7C0048E51E /* ContentView.swift in Sources */,
+				07863C6629FCBB800048E51E /* Day.swift in Sources */,
 				07863C3729FC6D7C0048E51E /* Clothes_RecorderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

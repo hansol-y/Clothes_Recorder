@@ -11,6 +11,7 @@ import XCTest
 final class Clothes_RecorderTests: XCTestCase {
 
     override func setUpWithError() throws {
+        var record: Record = Record();
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 

@@ -5,6 +5,8 @@
 //  Created by Hansol Yang on 2023/04/28.
 //
 
+// DEFAULT DATA FILE GIVEN BY XCODE
+
 import CoreData
 
 struct PersistenceController {
